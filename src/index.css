@@ -1,3 +1,40 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.Box {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #17153B 50%, #2E236C 50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+h1 {
+    font-size: 90px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* margin-top: 200px; */
+
+}
